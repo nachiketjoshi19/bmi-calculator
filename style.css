@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+* {
+    margin: 0;
+    background-color: #4f8a8b;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    user-select: none;
+}
+
+.title h1 {
+    color: #ea907a;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.name h2,
+.height h2,
+.weight h2 {
+    color: #ffcb74;
+    font-size: 40px;
+}
+
+.name input {
+    border: none;
+    outline: none;
+    background: #f4f6ff;
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+}
+
+.height input {
+    border: none;
+    outline: none;
+    background: #f4f6ff;
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+}
+
+.weight input {
+    border: none;
+    outline: none;
+    background: #f4f6ff;
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+    /* width: 337px; */
+}
+
+.submit button {
+    color: #4f8a8b;
+    background: #ea907a;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    transition: all 0.3s linear;
+}
+
+.submit button:hover {
+    background: #4f8a8b;
+    color: #ea907a;
+    border: 1px solid tomato;
+}
+
+.submit button:focus {
+    outline: none;
+}
+
+.result h1 {
+    color: #f4f6ff;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+#result {
+    color: #f3b852;
+    font-size: 60px;
+}
+
+#note {
+    color: #f3b852;
+    font-size: 60px;
+}
